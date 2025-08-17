@@ -11,7 +11,7 @@ app.use(express.json());
 const VERIFY_TOKEN = "midemo123";
 
 // Asegúrate de que coincida con el "Phone Number ID" que ves en WhatsApp → Configuración de la API
-const PHONE_NUMBER_ID = "795487123034175";
+const PHONE_NUMBER_ID = "795487120304175";
 
 // Variables de entorno (configuradas en Render → Environment)
 const WP_TOKEN = process.env.WP_TOKEN;               // Token de acceso de WhatsApp (Meta)
