@@ -77,6 +77,6 @@ app.post("/webhook/whatsapp", async (req, res) => {
     res.sendStatus(200);
   }
 });
-
+app.get("/", (req, res) => res.send("OK"));
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log("Servidor corriendo en puerto", PORT));
